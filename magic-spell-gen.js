@@ -1,14 +1,22 @@
 /***************
   
    magic-spell-gen.js
+   
+   Fantasy magic spell name generator.
  
    Methods:
 		magicSpellGen.getName() //get one magic spell name (random element)
-		magicSpellGen.getElementalName(elem) //get specific element spell name, string parameters: 
-			fire, metal, shadow, beast, heaven, light, life, death, chaos
+		magicSpellGen.getElementalName(elem) //get specific element spell name
+			Possible string parameter:
+				fire, metal, shadow, beast, heaven, light, life, death, chaos
 
-			
-	2019-09-16
+	Example outputs:
+		Astral Spirit
+		Majestic Storm of Lorimarr
+		Words of Justice
+		Bolt of Titans
+		Serpentine Fists of Styxthus
+		
 
 ***************/
 
