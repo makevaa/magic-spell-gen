@@ -1,24 +1,21 @@
 # magic-spell-gen
 
  Fantasy magic spell <b>name generator</b> made with JavaScript.
+ ### [Live Demo](http://chazu.arkku.net/generator/magic-spell-name/)
  
-   <h2>Methods</h2>
-		<code>magicSpellGen.getName() //get one magic spell name (random element)</code> 
-		<code>magicSpellGen.getElementalName(elem) //get specific element spell name</code>    
-    <br><br>
-	Possible string parameters for <code>getElementalName(elem)</code>:<br>
-				<code>fire, metal, shadow, beast, heaven, light, life, death, chaos</code>
-        <br>
+## Methods
+* `magicSpellGen.getName()` //get one magic spell name (random element)
+* `magicSpellGen.getElementalName(elem)`  //get specific element spell name  
+	* Possible element names (strings): `fire, metal, shadow, beast, heaven, light, life, death, chaos`
         
-<h2>Usage</h2>
-        <code>magicSpellGen.getName() //output: Ward of Winter</code><br>
-        <code>magicSpellGen.getElementalName("fire") //output: Law of Magma</code>
+## Usage
+	magicSpellGen.getName(); //output: Ward of Winter
+	magicSpellGen.getElementalName("fire") //output: Law of Magma
         
-
-  <h2>Example outputs</h2>
-          Astral Spirit<br>
-          Majestic Storm of Lorimarr<br>
-          Words of Justice<br>
-          Bolt of Titans<br>
-          Serpentine Fists of Styxthus
-		
+## Example outputs
+Examples of generated magic spell names:
+* Astral Spirit
+* Majestic Storm of Lorimarr
+* Words of Justice
+* Bolt of Titans
+* Serpentine Fists of Styxthus
