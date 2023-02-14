@@ -1,7 +1,7 @@
 # magic-spell-gen
 
  Fantasy magic spell <b>name generator</b> made with JavaScript.
- ### [Live Demo](http://chazu.arkku.net/generator/magic-spell-name/)
+
  
 ## Methods
 * `magicSpellGen.getName()` //get one magic spell name (random element)
